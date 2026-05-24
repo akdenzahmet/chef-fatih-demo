@@ -1205,6 +1205,17 @@ body {
   }
 
   .overlay {
-    padding-top: 190px;
+    padding-top: 260px;
+  }
+}
+
+@media (max-width: 650px) {
+  .nav-links {
+    margin-top: -4px;
+    margin-bottom: 12px;
+  }
+
+  .hero-badge {
+    margin-top: 10px;
   }
 }
