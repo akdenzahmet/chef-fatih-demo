@@ -1303,3 +1303,80 @@ body {
     margin-bottom: 28px;
   }
 }
+@media (max-width: 650px) {
+  .navbar {
+    top: 14px !important;
+    left: 14px !important;
+    transform: none !important;
+
+    width: calc(100% - 28px) !important;
+    height: 150px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    justify-content: flex-start !important;
+
+    padding: 14px !important;
+    gap: 14px !important;
+  }
+
+  .logo {
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 12px !important;
+    flex-shrink: 0 !important;
+  }
+
+  .logo img {
+    width: 48px !important;
+    height: 48px !important;
+  }
+
+  .logo span {
+    display: block !important;
+    font-size: 22px !important;
+    line-height: 1 !important;
+  }
+
+  .nav-links {
+    width: 100% !important;
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    gap: 10px !important;
+
+    margin: 0 !important;
+    padding: 0 0 4px 0 !important;
+
+    scrollbar-width: none !important;
+  }
+
+  .nav-links::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .nav-links a {
+    flex: 0 0 auto !important;
+    white-space: nowrap !important;
+
+    font-size: 13px !important;
+    padding: 8px 13px !important;
+    border-radius: 999px !important;
+
+    background: rgba(255, 255, 255, 0.08) !important;
+  }
+
+  .nav-links a::after {
+    display: none !important;
+  }
+
+  .nav-cta {
+    display: none !important;
+  }
+
+  .overlay {
+    padding-top: 250px !important;
+  }
+}
