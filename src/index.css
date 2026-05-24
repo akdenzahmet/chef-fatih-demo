@@ -1173,3 +1173,38 @@ body {
     font-size: 15px !important;
   }
 }
+@media (max-width: 650px) {
+  .navbar {
+    height: auto;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+
+  .nav-links {
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-bottom: 6px;
+  }
+
+  .nav-links a {
+    font-size: 12px;
+    padding: 8px 10px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.06);
+  }
+
+  .nav-links a::after {
+    display: none;
+  }
+
+  .nav-cta {
+    display: none !important;
+  }
+
+  .overlay {
+    padding-top: 190px;
+  }
+}
