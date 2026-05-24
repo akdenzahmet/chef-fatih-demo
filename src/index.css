@@ -1274,3 +1274,32 @@ body {
     margin-top: 0;
   }
 }
+@media (max-width: 650px) {
+  .navbar {
+    height: 150px;
+  }
+
+  .nav-links {
+    position: absolute;
+    left: 18px;
+    right: 18px;
+    bottom: 16px;
+
+    width: auto;
+    margin: 0;
+    padding: 0;
+
+    display: flex !important;
+    overflow-x: auto;
+    gap: 10px;
+  }
+
+  .overlay {
+    padding-top: 330px;
+  }
+
+  .hero-badge {
+    margin-top: 0;
+    margin-bottom: 28px;
+  }
+}
