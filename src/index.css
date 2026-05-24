@@ -1380,3 +1380,20 @@ body {
     padding-top: 250px !important;
   }
 }
+@media (max-width: 650px) {
+  .nav-links {
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+  }
+
+  .nav-links a {
+    font-size: 12px !important;
+    padding: 8px 11px !important;
+  }
+
+  .nav-links a[href="#sosyal"] {
+    display: none !important;
+  }
+}
