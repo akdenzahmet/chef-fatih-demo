@@ -1219,3 +1219,58 @@ body {
     margin-top: 10px;
   }
 }
+
+@media (max-width: 650px) {
+  .navbar {
+    height: 128px;
+    align-items: flex-start;
+    padding: 14px 18px;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .nav-links {
+    display: flex !important;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 10px;
+
+    width: 100%;
+    overflow-x: auto;
+
+    padding-bottom: 6px;
+    margin-top: 8px;
+    margin-bottom: 0;
+
+    scrollbar-width: none;
+  }
+
+  .nav-links::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-links a {
+    white-space: nowrap;
+    flex: 0 0 auto;
+
+    font-size: 13px;
+    padding: 8px 13px;
+    border-radius: 999px;
+
+    background: rgba(255, 255, 255, 0.07);
+  }
+
+  .nav-cta {
+    display: none !important;
+  }
+
+  .overlay {
+    padding-top: 250px;
+  }
+
+  .hero-badge {
+    margin-top: 0;
+  }
+}
